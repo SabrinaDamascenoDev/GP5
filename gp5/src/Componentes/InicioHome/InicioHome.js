@@ -1,8 +1,10 @@
 
+import 'bootstrap'
+import './inicio.css'
 
 function Inicio() {
     return (
-      <div className="">
+      <div className="container">
           
       </div>
     );
