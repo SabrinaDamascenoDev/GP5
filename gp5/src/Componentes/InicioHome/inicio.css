@@ -3,3 +3,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.menu{
+    position: relative;
+    left: 11em;
+    display: flex;
+    gap: 30px;
+}
