@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #F4F4F4;
 }
 
 .menu{
@@ -9,4 +10,55 @@ body{
     left: 11em;
     display: flex;
     gap: 30px;
+}
+
+.btnPrincipal{
+    background-image: linear-gradient(to right, #FE66B1, #E55EA1, #CD0067, #98004B);
+    width: 7em;
+    height: 2.5em;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 15px;
+}
+.btnSec{
+    border: #98004B solid 1px;
+    width: 7em;
+    background-color: transparent;
+    height: 2.5em;
+    font-weight: 600;
+    color: #3F3F3F;
+    border-radius: 15px;
+} 
+
+.btnSecDesc, .btnPrincipalDesc{
+    width: 11em;
+}
+
+.botoes{
+    gap: 15px;
+}
+
+.titleInicio{
+    font-weight: 600;
+    color: black;
+}
+.titulosInicio1 {
+    margin-top: 10em; 
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .elementosInicio{
+    margin-top: 4em;
+    display: flex;
+    gap: 12em;
+  }
+
+@media (max-width: 700px) {
+  
+  .img{
+    display: none;
+  }
 }
