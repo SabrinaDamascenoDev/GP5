@@ -1,18 +1,18 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Foi criado com [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Sripts do projeto
 
-In the project directory, you can run:
+Para Rodar o projeto use:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Abra [http://localhost:3000](http://localhost:3000) para ver o projeto em seu browser.
+
+A página vai recarregar quando houver mudanças no código.
+Se houver erros, eles iram aparecer em seu terminal.
 
 ### `yarn test`
 
