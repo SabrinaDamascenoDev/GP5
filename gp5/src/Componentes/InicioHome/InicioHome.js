@@ -6,8 +6,8 @@ import "./inicio.css";
 
 //imagens
 import coracao from "../../imagens/coracaozinho.svg";
-import logo from "../../imagens/logo.svg"
-import baixo from "../../imagens/parteBaixoInicio.svg"
+import logo from "../../imagens/logo.svg";
+import baixo from "../../imagens/parteBaixoInicio.svg";
 
 function Inicio() {
   return (
@@ -21,9 +21,15 @@ function Inicio() {
               <Nav.Link href="#" className="mx-3">
                 Sobre
               </Nav.Link>
-              <Nav.Link href="#" className="mx-3">Objetivo</Nav.Link>
-              <Nav.Link href="#" className="mx-3">Equipe</Nav.Link>
-              <Nav.Link href="#" className="mx-3">Acessar</Nav.Link>
+              <Nav.Link href="#" className="mx-3">
+                Objetivo
+              </Nav.Link>
+              <Nav.Link href="#" className="mx-3">
+                Equipe
+              </Nav.Link>
+              <Nav.Link href="#" className="mx-3">
+                Acessar
+              </Nav.Link>
             </Nav>
             <Nav.Link href="">
               <button className="btn btnPrincipal">Entrar</button>
@@ -32,30 +38,39 @@ function Inicio() {
         </Container>
       </Navbar>
       <div className="container">
-        <div className="d-flex d-inline g-5 elementosInicio"> 
-        <div className="titulosInicio1 col-lg-5 d-flex ">
-          <div className="d-lg-inline d-lg-flex align-items-center ">
-            <img src={coracao} alt="Coracao" className="mb-5 me-2 align-items-center"></img>
-            <h1 className="titleInicio fs-xl-1">Unidas pela Inclusão na Tecnologia</h1>
-          </div>
-          <p className="mt-3">
-            Junte-se a uma comunidade exclusiva para mulheres que estão moldando
-            o futuro do mercado tecnológico. Aqui, sua voz é ouvida e sua
-            presença faz a diferença
-          </p>
-          <div className="botoes d-flex g-4 mt-3"> 
-              <button className="btnPrincipal btnPrincipalDesc">Saiba mais</button>
+        <div className="d-flex flex-lg-row flex-column align-items-lg-start align-items-center g-5 elementosInicio">
+          <div className="titulosInicio1 col-lg-5 d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center">
+            <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start mb-5">
+              <img
+                src={coracao}
+                alt="Coracao"
+                className="mb-3 mb-lg-0 me-lg-2"
+              ></img>
+              <h1 className="titleInicio fs-xl-1">
+                Unidas pela Inclusão na Tecnologia
+              </h1>
+            </div>
+            <p className="mt-3">
+              Junte-se a uma comunidade exclusiva para mulheres que estão
+              moldando o futuro do mercado tecnológico. Aqui, sua voz é ouvida e
+              sua presença faz a diferença.
+            </p>
+            <div className="botoes d-flex flex-column flex-lg-row align-items-center align-items-lg-start g-4 mt-3">
+              <button className="btnPrincipal btnPrincipalDesc">
+                Saiba mais
+              </button>
               <button className="btnSec btnSecDesc">Discord</button>
+            </div>
           </div>
-        </div>
 
-        <div className="imagemInicio col-5">
-            <img src={logo} className="img"></img>
-        </div>
+          <div className="imagemInicio d-none d-lg-block col-5">
+            <img src={logo} className="img-fluid" alt="Logo"></img>
+          </div>
         </div>
       </div>
-      <div style={{ width: '100%' }}>
-        <img src={baixo} alt="" style={{ width: '100%' }} />
+
+      <div className="imagemBaixo-container" style={{ width: "100%" }}>
+        <img src={baixo} alt="" style={{ width: "100%" }} />
       </div>
     </div>
   );
