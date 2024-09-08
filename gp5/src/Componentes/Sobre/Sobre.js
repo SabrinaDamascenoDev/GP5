@@ -5,7 +5,7 @@ import iconUniao from "../../imagens/icon-objetivos-uniao.svg";
 import iconDev from "../../imagens/icon-objetivos-dev.svg";
 import "./sobre.css"
 
-function PageSobre() {
+function PageSobre() { 
 
     return (
         <div className="landing-global container">

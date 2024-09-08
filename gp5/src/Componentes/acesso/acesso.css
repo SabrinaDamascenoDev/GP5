@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divPrincipal{
+    background-color: white;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    weight: 100%;
+    height: 80vh;
+}
+
+.LeftContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.Title{
+    color: #98004B;
+
+}
+
+.Title1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Title2{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.img{
+    max-width: 500;
+    max-height: 450px;
+}
+
+.botao{
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 251px;
+    height: 57px;
+}
+
+.a{
+    text-decoration: none;
+    background-image: url('../../imagens/backgroundpink.png'); 
+    width: 251px;
+    height: 57px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+}
+.Insta{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    border: 1px solid #ccc; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borderImg{
+    width: 590px;
+    height: 493px;
+    border: 4px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heartIcon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    height: 530px;
+}
+
+.heartIconTop{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    height: 530px;
+}
+
+.pinkLine{
+    background-color: #98004B;
+    height: 2px;
+    
+}
