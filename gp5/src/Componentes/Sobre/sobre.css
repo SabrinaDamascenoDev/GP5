@@ -1,0 +1,150 @@
+.landing-global {
+    background: #F4F4F4;
+    padding: 18px;
+    overflow-x: hidden;
+}
+
+.img-sobre{
+    display: none;
+}
+
+.title-sobre {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: left;
+}
+
+.linha-sobre {
+    width: 278px;
+    height: 1px;
+    background: #98004B;
+}
+
+.card-sobre {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+.destaque-card-sobre {
+    background: #FEB2D8;
+}
+
+.button-sobre {
+    background: linear-gradient(to right, #E35DA0, #C5367D);
+    width: 162px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.objetivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.topico-objetivos {
+    color: #FE66B1;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 48px 0px 10px;
+}
+
+.title-objetivos {
+    color: #1E1E1E;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.cards-objetivos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.card-objetivos {
+    width: 272px;
+    height: 228px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.topic-card-objetivos{
+    font-size: 20px;
+    color: #000000;
+}
+
+.text-card-objetivos{
+    font-size: 16px;
+    color: #000000;
+}
+
+@media(min-width: 768px){
+    .sobre{
+        display: flex;
+        gap: 23px;
+    }
+    .img-sobre{
+        display: block;
+        width: 50%;
+    }
+
+    .cards-objetivos-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+}
+
+@media(min-width: 1336px){
+    .sobre{
+        padding: 0px 80px;
+        gap: 43px;
+    }
+
+    .title-sobre{
+        font-size: 48px;
+    }
+    
+    .linha-sobre{
+        margin: 14px 0px 38px;
+        width: 375px;
+    }
+
+    .card-sobre{
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .button-sobre{
+        width: 236px;
+        height: 57px;
+        font-size: 27px;
+    }
+
+    .topico-objetivos{
+        font-size: 28px;
+    }
+
+    .title-objetivos{
+        font-size: 35px;
+
+    }
+
+    .cards-objetivos-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+    }
+
+}
