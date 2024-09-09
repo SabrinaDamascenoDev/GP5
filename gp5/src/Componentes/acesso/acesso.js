@@ -7,7 +7,7 @@ import "./acesso.css"
 const Acesso = () => {
   return (
     <div>
-        <div className='divPrincipal'>
+        <div className='divPrincipal' id='acessar'>
             <div className='LeftContainer'>
                 <h3 className='Title'>
                     Acessar

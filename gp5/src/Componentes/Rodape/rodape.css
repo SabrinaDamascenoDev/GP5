@@ -1,0 +1,43 @@
+.Insta{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    border: 1px solid #ccc; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.descricaoRodape h1{
+    font-weight: 900;
+}
+
+.RedesRodape h1{
+    font-weight: 900;
+}
+
+
+.rodape{
+    background-color: #8A8686;
+    color: white;
+
+}
+
+.textosFinalRodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.descricaoRodape p{
+    width: 50%;
+}
+@media screen and (max-width: 770px) {
+    .descricaoRodape p{
+        width: 100%;
+    }
+  }
+  

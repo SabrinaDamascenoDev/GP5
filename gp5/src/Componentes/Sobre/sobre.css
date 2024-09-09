@@ -1,7 +1,10 @@
 .landing-global {
-    background: #F4F4F4;
+    
     padding: 18px;
     overflow-x: hidden;
+}
+body{
+    background-color: #F4F4F4;
 }
 
 .img-sobre{

@@ -18,16 +18,16 @@ function Inicio() {
           <Navbar.Toggle aria-controls="menuNavBar" />
           <Navbar.Collapse id="menuNavBar">
             <Nav className="mx-auto d-flex justify-content-center g-4 fs-5">
-              <Nav.Link href="#" className="mx-3">
+              <Nav.Link href="#sobre" className="mx-3">
                 Sobre
               </Nav.Link>
-              <Nav.Link href="#" className="mx-3">
+              <Nav.Link href="#objetivos" className="mx-3">
                 Objetivo
               </Nav.Link>
-              <Nav.Link href="#" className="mx-3">
+              <Nav.Link href="#equipe" className="mx-3">
                 Equipe
               </Nav.Link>
-              <Nav.Link href="#" className="mx-3">
+              <Nav.Link href="#acessar" className="mx-3">
                 Acessar
               </Nav.Link>
             </Nav>
@@ -55,10 +55,11 @@ function Inicio() {
               moldando o futuro do mercado tecnológico. Aqui, sua voz é ouvida e
               sua presença faz a diferença.
             </p>
-            <div className="botoes d-flex flex-column flex-lg-row align-items-center align-items-lg-start g-4 mt-3">
-              <button className="btnPrincipal btnPrincipalDesc">
+            <div className="botoes d-flex flex-column flex-lg-row align-items-center align-items-lg-start gap-4 mt-3">
+              <a href="#sobre" className="btnPrincipal btnPrincipalDesc">
                 Saiba mais
-              </button>
+              </a>
+
               <button className="btnSec btnSecDesc">Discord</button>
             </div>
           </div>

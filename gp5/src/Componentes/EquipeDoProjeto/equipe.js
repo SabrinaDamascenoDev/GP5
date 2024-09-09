@@ -10,7 +10,7 @@ import FotoPriscila from '../../imagens/Rectangle40.png';
 function Equipe(){
 
     return(
-      <div className="bodyEquipe">
+      <div className="bodyEquipe" id="equipe">
         <div className="divContainer">
           <h3 className="subtitleEquipe">Participantes</h3>
           <h1 className="titleEquipe">Equipe do Projeto</h1>

@@ -14,11 +14,13 @@
     align-items: center; 
     margin-top: 1.5rem;
     gap: 0.5rem;
+
 }
 
 .subtitleEquipe{
     font-weight: 400;
     color: #F4F4F4;
+    margin-top: 2%;
 }
 
 .titleEquipe{

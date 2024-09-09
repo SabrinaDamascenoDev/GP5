@@ -9,7 +9,7 @@ function PageSobre() {
 
     return (
         <div className="landing-global container">
-            <div className="sobre">
+            <div className="sobre" id="sobre">
                 <img src={Sobre} alt="Girls in T.I" className="img-sobre col-6"/>
                 <div className="sobre-container">
                     <h1 className="title-sobre">Sobre</h1>
@@ -23,7 +23,7 @@ function PageSobre() {
                 </div>
             </div>
 
-            <div className="objetivos">
+            <div className="objetivos" id="objetivos">
                 <div className="topico-objetivos">Objetivos</div>
 
                 <h1 className="title-objetivos">Conheça os própositos do <br /> nosso projeto</h1>

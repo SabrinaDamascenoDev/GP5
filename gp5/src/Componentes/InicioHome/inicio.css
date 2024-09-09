@@ -12,7 +12,8 @@ body{
     gap: 30px;
 }
 
-.btnPrincipal{
+
+  .btnPrincipal {
     background-image: linear-gradient(to right, #FE66B1, #E55EA1, #CD0067, #98004B);
     width: 7em;
     height: 2.5em;
@@ -20,7 +21,17 @@ body{
     font-weight: 600;
     color: white;
     border-radius: 15px;
-}
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  a.btnPrincipal {
+    text-decoration: none; /* Removes underline from links with this class */
+  }
+  
 .btnSec{
     border: #98004B solid 1px;
     width: 7em;
