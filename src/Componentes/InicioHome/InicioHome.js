@@ -12,9 +12,9 @@ import baixo from "../../imagens/parteBaixoInicio.svg";
 function Inicio() {
   return (
     <div>
-      <Navbar expand="sm" className="mt-2 fs-1 me-5">
+      <Navbar expand="sm" className="mt-2 fs-1 me-2 me-lg-5">
         <Container>
-          <Navbar.Brand className="fw-bold fs-2 mt-1">GP5.</Navbar.Brand>
+          <Navbar.Brand className="fw-bold fs-2 mt-1 ms-3 ms-lg-0">GP5.</Navbar.Brand>
           <Navbar.Toggle aria-controls="menuNavBar" />
           <Navbar.Collapse id="menuNavBar">
             <Nav className="mx-auto d-flex justify-content-center g-4 fs-5">
