@@ -44,6 +44,9 @@ body{
     font-weight: 600;
 
 }
+.button-sobre:hover{
+    color: #000000;
+}
 
 .objetivos {
     display: flex;

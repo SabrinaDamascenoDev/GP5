@@ -18,8 +18,9 @@ function PageSobre() {
                     <p className="card-sobre">O projeto <span className="destaque-card-sobre">GP5</span> é uma iniciativa voltada para <span className="destaque-card-sobre">a inclusão de mulheres na área da tecnologia.</span> Com o objetivo de criar um espaço de apoio e crescimento mútuo, o projeto busca conectar mulheres que já atuam ou desejam ingressar no mercado tecnológico, <span className="destaque-card-sobre">promovendo a diversidade e igualdade de gênero.</span></p>
 
                     <p className="card-sobre">Através de uma <span className="destaque-card-sobre">comunidade no Discord,</span> o GP5 oferece um ambiente acolhedor e seguro onde as participantes podem trocar conhecimentos, experiências e oportunidades. A comunidade é um espaço para <span className="destaque-card-sobre">networking, desenvolvimento profissional e suporte,</span> onde cada mulher tem a chance de aprender, compartilhar e se fortalecer junto com outras profissionais do setor.</p>
-
+                    <a href="https://discord.gg/MTA3r5bD">
                     <button className="button-sobre">Comunidade</button>
+                    </a>
                 </div>
             </div>
 
