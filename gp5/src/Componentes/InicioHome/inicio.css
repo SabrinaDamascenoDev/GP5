@@ -27,6 +27,9 @@ body{
     text-align: center;
     text-decoration: none; /* Removes the underline */
   }
+  .btnPrincipal:hover{
+    color: black;
+  }
   
   a.btnPrincipal {
     text-decoration: none; /* Removes underline from links with this class */
@@ -41,6 +44,12 @@ body{
     color: #3F3F3F;
     border-radius: 15px;
 } 
+
+.btnSec:hover{
+  background-image: linear-gradient(to right, #FE66B1, #E55EA1, #CD0067, #98004B);
+  border: none;
+  color: white;
+}
 
 .btnSecDesc, .btnPrincipalDesc{
     width: 11em;

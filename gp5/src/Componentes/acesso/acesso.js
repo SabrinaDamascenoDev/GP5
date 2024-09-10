@@ -27,7 +27,7 @@ const Acesso = () => {
                     Entre na comunidade:
                 </h1>
                 <div className='botao w-50 h-25 w-lg-100 h-lg-100'>
-                    <a href="#" className='a fs-5 fs-lg-1'>Discord</a>
+                    <a href="https://discord.gg/MTA3r5bD" className='a fs-5 fs-lg-1'>Discord</a>
                 </div>
                 
             </div>

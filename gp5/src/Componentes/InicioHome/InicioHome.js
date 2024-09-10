@@ -31,7 +31,7 @@ function Inicio() {
                 Acessar
               </Nav.Link>
             </Nav>
-            <Nav.Link href="">
+            <Nav.Link href="https://discord.gg/MTA3r5bD">
               <button className="btn btnPrincipal">Entrar</button>
             </Nav.Link>
           </Navbar.Collapse>
@@ -59,8 +59,9 @@ function Inicio() {
               <a href="#sobre" className="btnPrincipal btnPrincipalDesc">
                 Saiba mais
               </a>
-
-              <button className="btnSec btnSecDesc">Discord</button>
+              <a href="https://discord.gg/MTA3r5bD">
+                <button className="btnSec btnSecDesc">Discord</button>
+              </a>
             </div>
           </div>
 
