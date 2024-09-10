@@ -4,6 +4,7 @@ import InstagramIcon from '../../imagens/mdi_instagram.png';
 function Rodape(){
     return(
         <div className="rodape py-5 px-3">
+            <div className='container-lg'>
             <div className="d-lg-flex justify-content-between">
             <div className="descricaoRodape ms-lg-5"> 
                 <h1>GP5.</h1>
@@ -24,6 +25,7 @@ function Rodape(){
                 <div className="textosFinalRodape">
                     <p className="ms-lg-5">Site desenvolvido por equipe de Si</p>
                     <p className="me-lg-5">© 2024 GP5 - Todos os direitos reservados </p>
+                </div>
                 </div>
             </div>
         </div>
