@@ -76,10 +76,20 @@ body{
     gap: 12em;
   }
 
+/* Adicione este bloco ao final do seu arquivo CSS */
+
 @media (max-width: 780px) {
-  
-  .img{
-    display: none;
+  .container {
+    margin-top: 0em; /* Ajuste conforme necessário */
+  }
+
+  .titulosInicio1 {
+    margin-top: 0; /* Ajuste a margem superior para centralizar os elementos conforme desejado */
+  }
+
+  .elementosInicio {
+    gap: 2em; /* Ajuste o gap conforme necessário para uma melhor visualização */
+    flex-direction: column; /* Altere a direção do flex para coluna se necessário */
   }
 }
 

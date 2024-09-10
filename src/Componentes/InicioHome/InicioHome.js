@@ -40,7 +40,7 @@ function Inicio() {
       <div className="container">
         <div className="d-flex flex-lg-row flex-column align-items-lg-start align-items-center g-5 elementosInicio">
           <div className="titulosInicio1 col-lg-5 d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center">
-            <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start mb-5">
+            <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start mb-3">
               <img
                 src={coracao}
                 alt="Coracao"
