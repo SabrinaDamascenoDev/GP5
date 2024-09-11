@@ -47,7 +47,7 @@ function Inicio() {
                 className="mb-3 mb-lg-5 mb-5 me-lg-2"
               ></img>
               <h1 className="titleInicio fs-xl-1">
-                Unidas pela Inclusão na Tecnologia
+                Unidas pela Inclusão <span className="">na Tecnologia</span>
               </h1>
             </div>
             <p className="mt-3">
