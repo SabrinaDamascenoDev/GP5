@@ -103,9 +103,14 @@ body{
     height: 2px;
     
 }
-
+.imagemAcesso{
+    display: none;
+ }
 @media (max-width: 780px) {
  .divPrincipal{
     margin-top: 5%;
+ }
+ .imagemAcesso{
+    display: block;
  }
   }
