@@ -96,10 +96,7 @@ body{
     gap: 2em; /* Ajuste o gap conforme necessário para uma melhor visualização */
     flex-direction: column; /* Altere a direção do flex para coluna se necessário */
   }
-  .titleInicio span{
-    position: relative;
-    right: 0%;
-   }
+ 
 }
 
 @media (max-width: 1200px) {
@@ -108,3 +105,9 @@ body{
   }
 }
 
+@media (max-width: 1500px) {
+   .titleInicio span{
+    position: relative;
+    right: 0%;
+   }
+}
